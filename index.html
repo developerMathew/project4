@@ -1,0 +1,510 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Travelling Blog Website</title>
+</head>
+
+<body>
+    <div class="layer-1">
+        <header>
+            <nav class="navbar">
+                <img src="navlogo.png" alt="">
+                <div class="navlist show">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="page2.html">About Us</a></li>
+                        <li><a href="page3.html">Destination</a></li>
+                        <li><a href="page4.html">Tips</a></li>
+                        <li><a href="page5.html">Contact</a></li>
+
+                    </ul>
+                </div>
+                <div class="menubar">
+                    <button onclick="toggle()"><i class="fa-solid fa-bars"></i></button>
+                </div>
+            </nav>
+        </header>
+        <div class="layer1-container">
+            <div class="cont-1">
+                <h2>THE COUNTER: <span style="color: goldenrod;">70</span></h2>
+                <h1>Countries <span style="color: goldenrod;">&nbsp 1036</span></h1>
+            </div>
+            <div class="cont-2">
+                <b>
+                    <h1>Leave your mark on all <br> over the world</h1>
+                </b>
+            </div>
+            <div class="readmore">
+                <button>Read More</button>
+            </div>
+            <div class="flex-container">
+                <div></div>
+                <div class="scroll">
+                    <h3>Scroll Down to continue</h3>
+                    <button><i class="fa-solid fa-angle-down"></i></button>
+                </div>
+                <div class="location-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Layer-2 -->
+    <div class="layer-2">
+        <div class="layer2-container">
+            <div class="left-container">
+                <div class="card-01">
+                    <h1>About Me</h1>
+                    <div class="img">
+                        <img src="aboutme.png" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eligendi odio optio
+                        necessitatibus vitae obcaecati et repellendus, sit mollitia qui impedit voluptatem
+                        temporibus laborum rem perspiciatis, in ipsa? Libero, ut?</p>
+                    <div>
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <!-- categories -->
+                <div class="card-02">
+                    <div class="card02-head">
+                        <h1>Categories</h1>
+                    </div>
+                    <div class="table">
+                        <div class="categories">
+                            <li>Europe</li>
+                            <li>(11)</li>
+                        </div>
+                        <div class="categories">
+                            <li>Mountains</li>
+                            <li>(11)</li>
+                        </div>
+                        <div class="categories">
+                            <li>Traveling Video</li>
+                            <li>(11)</li>
+                        </div>
+                        <div class="categories">
+                            <li>Beauty of Seas</li>
+                            <li>(11)</li>
+                        </div>
+                        <div class="categories">
+                            <li>Cuisine</li>
+                            <li>(11)</li>
+                        </div>
+                        <div class="categories">
+                            <li>Guides for traveler</li>
+                            <li>(11)</li>
+                        </div>
+                        <div class="categories">
+                            <li>Other</li>
+                            <li>(11)</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular">
+                    <h1>Popular Post</h1>
+                </div>
+                <div class="image-1">
+                    <h3 style="color: #fff;font-size:27px;padding:50px 0;text-align:center;">September 17, 2018 - Tips &
+                        Tricks</h3>
+                    <h1 style="color:#fff;font-size:40px;padding:20px 40px">Finding Love & home in Tbilisi, Georgia</h1>
+                    <div class="button">
+                        <button><i class="fa-solid fa-chevron-left"></i></button>
+                        <button><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <div class="popular">
+                    <h1>Recent Post</h1>
+                </div>
+                <div class="flex-box">
+                    <div class="div-1">
+                        <img src="post1.png" alt="">
+                        <div>
+                            <h3 style="padding: 10px 10px;">September 17, 2018 - Tips & Tricks</h3>
+                            <h1 style="padding: 20px 10px;">Finding Love & home in Tbilisi, Georgia</h1>
+                        </div>
+                    </div>
+                    <div class="div-1">
+                        <img src="post2.png" alt="">
+                        <div>
+                            <h3 style="padding: 10px 10px;">September 17, 2018 - Tips & Tricks</h3>
+                            <h1 style="padding: 20px 10px;">Finding Love & home in Tbilisi, Georgia</h1>
+                        </div>
+                    </div>
+                    <div class="div-1">
+                        <img src="post2.png" alt="">
+                        <div>
+                            <h3 style="padding: 10px 10px;">September 17, 2018 - Tips & Tricks</h3>
+                            <h1 style="padding: 20px 10px;">Finding Love & home in Tbilisi, Georgia</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-1">
+                    <div>
+                        <h1 style="font-size: 45px;">Gear I Use</h1>
+                    </div>
+                    <div>
+                        <h2 style="font-size: 35px;">What’s in My Bag??</h2>
+                    </div>
+                    <div style="padding: 20px 30px;">
+                        <p style="font-size: 25px;">Unfortunately, there is no “one-size-fits-all” when it comes to
+                            travel packing lists.</p>
+                    </div>
+                    <div>
+                        <button>View Details</button>
+                    </div>
+                </div>
+                <div class="popular">
+                    <h1>Product That I Have</h1>
+                </div>
+                <div class="flex-box">
+                    <div class="div-1">
+                        <img src="product1.png" alt="">
+                        <div>
+                            <h3 style="padding: 10px 10px;">September 17, 2018 - Tips & Tricks</h3>
+                            <h1 style="padding: 20px 10px;font-size:20px;">Finding Love & home in Tbilisi, Georgia</h1>
+                        </div>
+                    </div>
+                    <div class="div-1">
+                        <img src="product3.png" alt="">
+                        <div>
+                            <h3 style="padding: 10px 10px;">September 17, 2018 - Tips & Tricks</h3>
+                            <h1 style="padding: 20px 10px;font-size:20px;">Finding Love & home in Tbilisi, Georgia</h1>
+                        </div>
+                    </div>
+                    <div class="div-1">
+                        <img src="product2.png" alt="">
+                        <div>
+                            <h3 style="padding: 10px 10px;">September 17, 2018 - Tips & Tricks</h3>
+                            <h1 style="padding: 20px 10px;font-size:20px;">Finding Love & home in Tbilisi, Georgia</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular">
+                    <h1>Get In Touch</h1>
+                </div>
+                <div class="icon">
+                    <button>
+                        <i class="fa-brands fa-facebook-f" style="font-size: 50px;"></i>
+                        <div style="font-size: 20px;">
+                            <p>65.5k</p>
+                            <p>Likes</p>
+                        </div>
+                    </button>
+                    <button style="background-color: rgb(17, 156, 203);">
+                        <i class="fa-brands fa-twitter" style="font-size: 50px;"></i>
+                        <div style="font-size: 20px;">
+                            <p>65.5k</p>
+                            <p>Likes</p>
+                        </div>
+                    </button>
+                    <button style="background-color:red">
+                        <i class="fa-brands fa-youtube" style="font-size: 50px;"></i>
+                        <div style="font-size: 20px;">
+                            <p>65.5k</p>
+                            <p>Likes</p>
+                        </div>
+                    </button>
+                    <button style="background-color: rgb(202, 47, 199);">
+                        <i class="fa-brands fa-instagram" style="font-size: 50px;"></i>
+                        <div style="font-size: 20px;">
+                            <p>65.5k</p>
+                            <p>Likes</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <!-- right-container -->
+            <div class="right-container">
+                <div class="card1">
+                    <img src="r1.png" alt="">
+                    <div>
+                        <h3>July, 15, 2021 - Tips and Tricks</h3>
+                        <h1>A traveler’s guide to Penang, Malaysia - Where to
+                            Eat, Drink, Sleep and Explore </h1>
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam iste veritatis, esse laborum
+                            accusamus ullam veniam quas dolore amet quidem minus eligendi libero obcaecati perspiciatis.
+                            Non recusandae dolores dicta hic!</h4>
+                        <div class="font-icon">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h3> Penang, Malaysia</h3>
+                            </div>
+                            <div class="location">
+                                <i class="fa-solid fa-comments"></i>
+                                <h3> Comments (52)</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-card">
+                    <div class="flex1">
+                        <div class="flex-img1">
+                            <img src="popular.png" alt="" style="height:320px;">
+                            <p style="padding: 10px 10px;">September 17, 2021 - Tips & Tricks</p>
+                            <h1 style="padding: 50px 10px;">Have you read The Beach by Alex?</h1>
+                            <div class="font-icon">
+                                <div class="location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <h3> Georgia</h3>
+                                </div>
+                                <div class="location">
+                                    <i class="fa-solid fa-comments"></i>
+                                    <h3> Comments (52)</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex1">
+                        <div class="flex-img1">
+                            <img src="tower.png" alt="">
+                            <p style="padding: 10px 10px;">September 17, 2021 - Tips & Tricks</p>
+                            <h1 style="padding: 50px 10px;">Have you read The Beach by Alex?</h1>
+                            <div class="font-icon">
+                                <div class="location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <h3> Georgia</h3>
+                                </div>
+                                <div class="location">
+                                    <i class="fa-solid fa-comments"></i>
+                                    <h3> Comments (52)</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card1">
+                    <img src="r2.png" alt="">
+                    <div>
+                        <h3>July, 15, 2021 - Tips and Tricks</h3>
+                        <h1>A traveler’s guide to Penang, Malaysia - Where to
+                            Eat, Drink, Sleep and Explore </h1>
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam iste veritatis, esse laborum
+                            accusamus ullam veniam quas dolore amet quidem minus eligendi libero obcaecati perspiciatis.
+                            Non recusandae dolores dicta hic!</h4>
+                        <div class="font-icon">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h3> Penang, Malaysia</h3>
+                            </div>
+                            <div class="location">
+                                <i class="fa-solid fa-comments"></i>
+                                <h3> Comments (52)</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-card">
+                    <h1>Want Me to Purchase Something For You That isn’t
+                        available in
+                        your Country?</h1>
+                    <div>
+                        <button style="font-family: 'Roboto';">Place Order</button>
+                    </div>
+                </div>
+                <div class="flex-card">
+                    <div class="flex1">
+                        <div class="flex-img1">
+                            <img src="globe.png" alt="" style="height:320px;">
+                            <p style="padding: 10px 10px;">September 17, 2021 - Tips & Tricks</p>
+                            <h1 style="padding: 50px 10px;">Have you read The Beach by Alex?</h1>
+                            <div class="font-icon">
+                                <div class="location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <h3> Georgia</h3>
+                                </div>
+                                <div class="location">
+                                    <i class="fa-solid fa-comments"></i>
+                                    <h3> Comments (52)</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex1">
+                        <div class="flex-img1">
+                            <img src="pattern.png" alt="">
+                            <p style="padding: 10px 10px;">September 17, 2021 - Tips & Tricks</p>
+                            <h1 style="padding: 50px 10px;">Have you read The Beach by Alex?</h1>
+                            <div class="font-icon">
+                                <div class="location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <h3> Georgia</h3>
+                                </div>
+                                <div class="location">
+                                    <i class="fa-solid fa-comments"></i>
+                                    <h3> Comments (52)</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-card">
+                    <div class="flex1">
+                        <div class="flex-img1">
+                            <img src="new.png" alt="" style="height:320px;">
+                            <p style="padding: 10px 10px;">September 17, 2021 - Tips & Tricks</p>
+                            <h1 style="padding: 50px 10px;">Have you read The Beach by Alex?</h1>
+                            <div class="font-icon">
+                                <div class="location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <h3> Georgia</h3>
+                                </div>
+                                <div class="location">
+                                    <i class="fa-solid fa-comments"></i>
+                                    <h3> Comments (52)</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex1">
+                        <div class="flex-img1">
+                            <img src="deer.png" alt="">
+                            <p style="padding: 10px 10px;">September 17, 2021 - Tips & Tricks</p>
+                            <h1 style="padding: 50px 10px;">Have you read The Beach by Alex?</h1>
+                            <div class="font-icon">
+                                <div class="location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <h3> Georgia</h3>
+                                </div>
+                                <div class="location">
+                                    <i class="fa-solid fa-comments"></i>
+                                    <h3> Comments (52)</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card1">
+                    <img src="r2.png" alt="">
+                    <div>
+                        <h3>July, 15, 2021 - Tips and Tricks</h3>
+                        <h1>A traveler’s guide to Penang, Malaysia - Where to
+                            Eat, Drink, Sleep and Explore </h1>
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam iste veritatis, esse laborum
+                            accusamus ullam veniam quas dolore amet quidem minus eligendi libero obcaecati perspiciatis.
+                            Non recusandae dolores dicta hic!</h4>
+                        <div class="font-icon">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h3> Penang, Malaysia</h3>
+                            </div>
+                            <div class="location">
+                                <i class="fa-solid fa-comments"></i>
+                                <h3> Comments (52)</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-card">
+                    <div class="flex1">
+                        <div class="flex-img1">
+                            <img src="popular.png" alt="" style="height:320px;">
+                            <p style="padding: 10px 10px;">September 17, 2021 - Tips & Tricks</p>
+                            <h1 style="padding: 50px 10px;">Have you read The Beach by Alex?</h1>
+                            <div class="font-icon">
+                                <div class="location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <h3> Georgia</h3>
+                                </div>
+                                <div class="location">
+                                    <i class="fa-solid fa-comments"></i>
+                                    <h3> Comments (52)</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex1">
+                        <div class="flex-img1">
+                            <img src="tower.png" alt="">
+                            <p style="padding: 10px 10px;">September 17, 2021 - Tips & Tricks</p>
+                            <h1 style="padding: 50px 10px;">Have you read The Beach by Alex?</h1>
+                            <div class="font-icon">
+                                <div class="location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <h3> Georgia</h3>
+                                </div>
+                                <div class="location">
+                                    <i class="fa-solid fa-comments"></i>
+                                    <h3> Comments (52)</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="last-above">
+        <button>Follow @ instagram</button>
+    </div>
+    <div class="above-foot">
+        <h1>Join 98,641 Monthly Readers. Subscribe Today!</h1>
+        <div style="display: flex; gap:30px">
+            <input type="text" placeholder="Email Address">
+            <button>Subscribe</button>
+        </div>
+    </div>
+    <div class="last-div">
+        <img src="navlogo.png" alt="">
+        <li>Body</li>
+        <li>Travel</li>
+        <li>Account</li>
+    </div>
+    <footer>
+        <div class="foot-div">
+            <div class="f1">
+                We are location independent bloggers, digital influencers, small group tour organizers and world
+                travelers
+                with a
+                serious passion for the sun, the sea and adventure.
+
+                Eight years and 60-something countries later and we are still on the road.
+            </div>
+            <div class="f2">
+                <p>Add: 221B John hope
+                    Street, Lekki, Lagos, Nigeria.</p>
+                <p>T: +234 706 507 8544</p>
+                <p>E: info@redexplorers.com</p>
+                <p>W: www. redexplorers.com</p>
+            </div>
+            <div class="f3">
+                <li>My List</li>
+                <li>My Requests</li>
+                <li>My Credits</li>
+                <li>My Info</li>
+                <li>Contact</li>
+            </div>
+            <div class="f4">
+                <li>Travel</li>
+                <li>Why Travel</li>
+                <li>Become a Traveler</li>
+                <li>How Its Works</li>
+                <li>Traveling FAQs</li>
+            </div>
+        </div>
+        <div class="last-foot">
+            <img src="image 2.png" alt="">
+            <div class="foot-logo">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <p>© 2021 RedExplorers. All rights reserved | Terms | Privacy | Site Map</p>
+        </div>
+    </footer>
+    <script>
+        function toggle() {
+            const menubar = document.querySelector('.navlist');
+            menubar.classList.toggle('show');
+        }
+    </script>
+
+</body>
+
+</html>
